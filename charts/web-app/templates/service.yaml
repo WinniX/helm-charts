@@ -6,7 +6,6 @@ metadata:
 spec:
   selector:
     app: {{ .Release.Name }}
-    app.kubernetes.io/instance: {{ .Release.Name }}
   ports:
     - protocol: {{ .Values.service.protocol | default "TCP" }}
       port: {{ .Values.service.port }}
