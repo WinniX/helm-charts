@@ -15,6 +15,3 @@ service:
   port: 80
   targetPort: 9000
   protocol: "TCP"
-
-ingress:
-  host: "localhost"
