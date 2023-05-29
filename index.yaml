@@ -2,6 +2,16 @@ apiVersion: v1
 entries:
   web-app:
   - apiVersion: v2
+    appVersion: 1.1.1
+    created: "2023-05-29T09:34:23.096730146Z"
+    description: A web app helm chart
+    digest: 83ff23c0fefdb1f061b83be6a0472cfc3f84ca5949df2ce4043ff17e7b25355e
+    name: web-app
+    type: application
+    urls:
+    - https://github.com/WinniX/helm-charts/releases/download/web-app-0.1.1/web-app-0.1.1.tgz
+    version: 0.1.1
+  - apiVersion: v2
     appVersion: 1.1.0
     created: "2023-05-28T18:54:24.846926668Z"
     description: A web app helm chart
@@ -11,4 +21,4 @@ entries:
     urls:
     - https://github.com/WinniX/helm-charts/releases/download/web-app-0.1.0/web-app-0.1.0.tgz
     version: 0.1.0
-generated: "2023-05-28T18:54:24.846940968Z"
+generated: "2023-05-29T09:34:23.096736746Z"
