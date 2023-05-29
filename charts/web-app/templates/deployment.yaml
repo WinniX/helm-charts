@@ -15,7 +15,7 @@ spec:
       labels:
         app: {{ .Release.Name }}
       annotations: # annotate to be scraped by prometheus
-        prometheus.io/port: {{ .Values.prometheusPort | default "10254" }}
+        prometheus.io/port: "{{ .Values.prometheusPort }}"
         prometheus.io/scrape: "true"
     spec:
       containers:

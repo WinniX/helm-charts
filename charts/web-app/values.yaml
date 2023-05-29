@@ -2,7 +2,7 @@ namespace: external
 
 replicaCount: 1
 
-prometheusPort: 10254
+prometheusPort: "10254"
 
 image:
   repository: ghcr.io/winnix/web-app
